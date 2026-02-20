@@ -14,9 +14,6 @@ The pipeline successfully identified a transit signal consistent with a **Gas Gi
 * **Stellar Radius:** $118.05~R_\oplus$.
 * **Light Curve Morphology:** The observed "V-shape" in the binned data highlights physical effects such as **Limb Darkening** and Kepler's 30-minute integration smearing.
 
-![Transit Analysis Results](ff5.png)
-*Figure 1: (Left) Full phase-folded curve centered at zero. (Right) Zoomed transit showing binned data vs. the theoretical Box Model.*
-
 ## Features
 * **Automated Centering:** Finds the minimum flux phase and applies a wrap-around shift to prevent "split" transits.
 * **Scalability:** The pipeline is a generalized framework. By updating $P$, $T_0$, and $R_*$, it can characterize any target in the Kepler archive.
